@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BACC60079FD2ED3353E4838 /* Pods_Muhlag.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06E09BA73DDE67FBAC86ED7D /* Pods_Muhlag.framework */; };
+		8502D6A81E82D76B000DA459 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8502D6A71E82D76B000DA459 /* Global.swift */; };
+		8502D6AA1E82DE85000DA459 /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8502D6A91E82DE85000DA459 /* ProductListViewController.swift */; };
+		8502D6AC1E82E99C000DA459 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8502D6AB1E82E99C000DA459 /* MainViewController.swift */; };
+		8502D6B61E8436C6000DA459 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8502D6B51E8436C6000DA459 /* ProductTableViewCell.swift */; };
+		8502D6B81E843893000DA459 /* ProductSpecies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8502D6B71E843893000DA459 /* ProductSpecies.swift */; };
+		8502D6BF1E8659B1000DA459 /* TabManViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8502D6BE1E8659B1000DA459 /* TabManViewController.swift */; };
+		8502D6C11E8659B9000DA459 /* ChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8502D6C01E8659B9000DA459 /* ChildViewController.swift */; };
+		8502D6C81E87A3C4000DA459 /* PresetAppearanceConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8502D6C71E87A3C4000DA459 /* PresetAppearanceConfig.swift */; };
+		8502D6CA1E87ABA9000DA459 /* CategorySpecies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8502D6C91E87ABA9000DA459 /* CategorySpecies.swift */; };
+		8502D6DB1E87CC9F000DA459 /* PT_Sans-Web-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8502D6D71E87CC9F000DA459 /* PT_Sans-Web-Bold.ttf */; };
+		8502D6DC1E87CC9F000DA459 /* PT_Sans-Web-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8502D6D81E87CC9F000DA459 /* PT_Sans-Web-BoldItalic.ttf */; };
+		8502D6DD1E87CC9F000DA459 /* PT_Sans-Web-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8502D6D91E87CC9F000DA459 /* PT_Sans-Web-Italic.ttf */; };
+		8502D6DE1E87CC9F000DA459 /* PT_Sans-Web-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8502D6DA1E87CC9F000DA459 /* PT_Sans-Web-Regular.ttf */; };
+		85139AD91E8E28EF004950C0 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85139AD71E8E28EF004950C0 /* NotificationViewController.swift */; };
+		85139ADD1E8E2B7C004950C0 /* NotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85139ADB1E8E2B7C004950C0 /* NotificationTableViewCell.swift */; };
+		85139ADE1E8E2B7C004950C0 /* NotificationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85139ADC1E8E2B7C004950C0 /* NotificationTableViewCell.xib */; };
+		85BE27C31E8A1BDC00BD60A7 /* RealmCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BE27C21E8A1BDC00BD60A7 /* RealmCart.swift */; };
+		85BE27C51E8A2A2300BD60A7 /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BE27C41E8A2A2300BD60A7 /* CartTableViewCell.swift */; };
+		85BE27C71E8A2CFE00BD60A7 /* CheckOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BE27C61E8A2CFE00BD60A7 /* CheckOutViewController.swift */; };
+		85BE27CA1E8A366B00BD60A7 /* CustomFooterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BE27C91E8A366B00BD60A7 /* CustomFooterTableViewCell.swift */; };
+		85BE27CC1E8AE1E100BD60A7 /* BarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BE27CB1E8AE1E100BD60A7 /* BarStyle.swift */; };
+		85BE27CE1E8AE76C00BD60A7 /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BE27CD1E8AE76C00BD60A7 /* KeyboardLayoutConstraint.swift */; };
+		85E0B9B21E7EDBDA00702F40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E0B9B11E7EDBDA00702F40 /* AppDelegate.swift */; };
+		85E0B9B41E7EDBDA00702F40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E0B9B31E7EDBDA00702F40 /* ViewController.swift */; };
+		85E0B9B71E7EDBDA00702F40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85E0B9B51E7EDBDA00702F40 /* Main.storyboard */; };
+		85E0B9BA1E7EDBDA00702F40 /* Muhlag.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 85E0B9B81E7EDBDA00702F40 /* Muhlag.xcdatamodeld */; };
+		85E0B9BC1E7EDBDA00702F40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85E0B9BB1E7EDBDA00702F40 /* Assets.xcassets */; };
+		85E0B9BF1E7EDBDA00702F40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85E0B9BD1E7EDBDA00702F40 /* LaunchScreen.storyboard */; };
+		85E0B9CD1E7EDE3200702F40 /* AgeRestrictViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E0B9CC1E7EDE3200702F40 /* AgeRestrictViewController.swift */; };
+		85E0B9D11E7EDE5300702F40 /* DeliveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E0B9D01E7EDE5300702F40 /* DeliveryViewController.swift */; };
+		85E0B9D31E7EDE5E00702F40 /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E0B9D21E7EDE5E00702F40 /* UserInfoViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06E09BA73DDE67FBAC86ED7D /* Pods_Muhlag.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Muhlag.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46A1B32D259F06852B3FD3AA /* Pods-Muhlag.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muhlag.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Muhlag/Pods-Muhlag.debug.xcconfig"; sourceTree = "<group>"; };
+		8502D6A71E82D76B000DA459 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		8502D6A91E82DE85000DA459 /* ProductListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
+		8502D6AB1E82E99C000DA459 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		8502D6B51E8436C6000DA459 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		8502D6B71E843893000DA459 /* ProductSpecies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductSpecies.swift; sourceTree = "<group>"; };
+		8502D6BE1E8659B1000DA459 /* TabManViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabManViewController.swift; sourceTree = "<group>"; };
+		8502D6C01E8659B9000DA459 /* ChildViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildViewController.swift; sourceTree = "<group>"; };
+		8502D6C71E87A3C4000DA459 /* PresetAppearanceConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresetAppearanceConfig.swift; sourceTree = "<group>"; };
+		8502D6C91E87ABA9000DA459 /* CategorySpecies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategorySpecies.swift; sourceTree = "<group>"; };
+		8502D6D71E87CC9F000DA459 /* PT_Sans-Web-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PT_Sans-Web-Bold.ttf"; sourceTree = "<group>"; };
+		8502D6D81E87CC9F000DA459 /* PT_Sans-Web-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PT_Sans-Web-BoldItalic.ttf"; sourceTree = "<group>"; };
+		8502D6D91E87CC9F000DA459 /* PT_Sans-Web-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PT_Sans-Web-Italic.ttf"; sourceTree = "<group>"; };
+		8502D6DA1E87CC9F000DA459 /* PT_Sans-Web-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PT_Sans-Web-Regular.ttf"; sourceTree = "<group>"; };
+		85139AD71E8E28EF004950C0 /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		85139ADB1E8E2B7C004950C0 /* NotificationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationTableViewCell.swift; sourceTree = "<group>"; };
+		85139ADC1E8E2B7C004950C0 /* NotificationTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotificationTableViewCell.xib; sourceTree = "<group>"; };
+		854B678C1E916DB500DC3154 /* Muhlag.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Muhlag.entitlements; sourceTree = "<group>"; };
+		85BE27C21E8A1BDC00BD60A7 /* RealmCart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmCart.swift; sourceTree = "<group>"; };
+		85BE27C41E8A2A2300BD60A7 /* CartTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
+		85BE27C61E8A2CFE00BD60A7 /* CheckOutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckOutViewController.swift; sourceTree = "<group>"; };
+		85BE27C91E8A366B00BD60A7 /* CustomFooterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomFooterTableViewCell.swift; sourceTree = "<group>"; };
+		85BE27CB1E8AE1E100BD60A7 /* BarStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarStyle.swift; sourceTree = "<group>"; };
+		85BE27CD1E8AE76C00BD60A7 /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardLayoutConstraint.swift; sourceTree = "<group>"; };
+		85E0B9AE1E7EDBDA00702F40 /* Muhlag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Muhlag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85E0B9B11E7EDBDA00702F40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		85E0B9B31E7EDBDA00702F40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		85E0B9B61E7EDBDA00702F40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85E0B9B91E7EDBDA00702F40 /* Muhlag.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Muhlag.xcdatamodel; sourceTree = "<group>"; };
+		85E0B9BB1E7EDBDA00702F40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85E0B9BE1E7EDBDA00702F40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85E0B9C01E7EDBDA00702F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85E0B9CC1E7EDE3200702F40 /* AgeRestrictViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgeRestrictViewController.swift; sourceTree = "<group>"; };
+		85E0B9D01E7EDE5300702F40 /* DeliveryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeliveryViewController.swift; sourceTree = "<group>"; };
+		85E0B9D21E7EDE5E00702F40 /* UserInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
+		D261A48C0788A11D72395176 /* Pods-Muhlag.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muhlag.release.xcconfig"; path = "Pods/Target Support Files/Pods-Muhlag/Pods-Muhlag.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85E0B9AB1E7EDBDA00702F40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BACC60079FD2ED3353E4838 /* Pods_Muhlag.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8502D6BD1E86592A000DA459 /* TabMan */ = {
+			isa = PBXGroup;
+			children = (
+				8502D6C71E87A3C4000DA459 /* PresetAppearanceConfig.swift */,
+				8502D6BE1E8659B1000DA459 /* TabManViewController.swift */,
+				8502D6C01E8659B9000DA459 /* ChildViewController.swift */,
+			);
+			name = TabMan;
+			sourceTree = "<group>";
+		};
+		8502D6CD1E87CA0E000DA459 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				8502D6CE1E87CA19000DA459 /* Font */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		8502D6CE1E87CA19000DA459 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				8502D6D71E87CC9F000DA459 /* PT_Sans-Web-Bold.ttf */,
+				8502D6D81E87CC9F000DA459 /* PT_Sans-Web-BoldItalic.ttf */,
+				8502D6D91E87CC9F000DA459 /* PT_Sans-Web-Italic.ttf */,
+				8502D6DA1E87CC9F000DA459 /* PT_Sans-Web-Regular.ttf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		85139AD61E8E28CE004950C0 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				85139AD71E8E28EF004950C0 /* NotificationViewController.swift */,
+				85139ADB1E8E2B7C004950C0 /* NotificationTableViewCell.swift */,
+				85139ADC1E8E2B7C004950C0 /* NotificationTableViewCell.xib */,
+			);
+			name = Notification;
+			sourceTree = "<group>";
+		};
+		85BE27C11E8A1BB900BD60A7 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				85BE27C21E8A1BDC00BD60A7 /* RealmCart.swift */,
+			);
+			name = Realm;
+			sourceTree = "<group>";
+		};
+		85BE27C81E8A2E3000BD60A7 /* CheckOut */ = {
+			isa = PBXGroup;
+			children = (
+				85BE27C41E8A2A2300BD60A7 /* CartTableViewCell.swift */,
+				85BE27C61E8A2CFE00BD60A7 /* CheckOutViewController.swift */,
+				85BE27C91E8A366B00BD60A7 /* CustomFooterTableViewCell.swift */,
+			);
+			name = CheckOut;
+			sourceTree = "<group>";
+		};
+		85E0B9A51E7EDBDA00702F40 = {
+			isa = PBXGroup;
+			children = (
+				85E0B9B01E7EDBDA00702F40 /* Muhlag */,
+				8502D6CD1E87CA0E000DA459 /* Support */,
+				85E0B9AF1E7EDBDA00702F40 /* Products */,
+				D53337FFDC9004AF335FD756 /* Pods */,
+				B81A9A3CCDF520E7F24D954B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		85E0B9AF1E7EDBDA00702F40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85E0B9AE1E7EDBDA00702F40 /* Muhlag.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85E0B9B01E7EDBDA00702F40 /* Muhlag */ = {
+			isa = PBXGroup;
+			children = (
+				854B678C1E916DB500DC3154 /* Muhlag.entitlements */,
+				85139AD61E8E28CE004950C0 /* Notification */,
+				85BE27CB1E8AE1E100BD60A7 /* BarStyle.swift */,
+				85BE27C81E8A2E3000BD60A7 /* CheckOut */,
+				85BE27C11E8A1BB900BD60A7 /* Realm */,
+				8502D6BD1E86592A000DA459 /* TabMan */,
+				85E0B9B11E7EDBDA00702F40 /* AppDelegate.swift */,
+				85E0B9CC1E7EDE3200702F40 /* AgeRestrictViewController.swift */,
+				8502D6AB1E82E99C000DA459 /* MainViewController.swift */,
+				85E0B9B31E7EDBDA00702F40 /* ViewController.swift */,
+				8502D6A91E82DE85000DA459 /* ProductListViewController.swift */,
+				85E0B9B51E7EDBDA00702F40 /* Main.storyboard */,
+				85E0B9BB1E7EDBDA00702F40 /* Assets.xcassets */,
+				85E0B9BD1E7EDBDA00702F40 /* LaunchScreen.storyboard */,
+				85E0B9C01E7EDBDA00702F40 /* Info.plist */,
+				85E0B9B81E7EDBDA00702F40 /* Muhlag.xcdatamodeld */,
+				85E0B9D01E7EDE5300702F40 /* DeliveryViewController.swift */,
+				85E0B9D21E7EDE5E00702F40 /* UserInfoViewController.swift */,
+				8502D6A71E82D76B000DA459 /* Global.swift */,
+				8502D6B51E8436C6000DA459 /* ProductTableViewCell.swift */,
+				8502D6B71E843893000DA459 /* ProductSpecies.swift */,
+				8502D6C91E87ABA9000DA459 /* CategorySpecies.swift */,
+				85BE27CD1E8AE76C00BD60A7 /* KeyboardLayoutConstraint.swift */,
+			);
+			path = Muhlag;
+			sourceTree = "<group>";
+		};
+		B81A9A3CCDF520E7F24D954B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06E09BA73DDE67FBAC86ED7D /* Pods_Muhlag.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D53337FFDC9004AF335FD756 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46A1B32D259F06852B3FD3AA /* Pods-Muhlag.debug.xcconfig */,
+				D261A48C0788A11D72395176 /* Pods-Muhlag.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85E0B9AD1E7EDBDA00702F40 /* Muhlag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85E0B9C31E7EDBDA00702F40 /* Build configuration list for PBXNativeTarget "Muhlag" */;
+			buildPhases = (
+				9FE69013AA73CF3DB3E9F591 /* [CP] Check Pods Manifest.lock */,
+				85E0B9AA1E7EDBDA00702F40 /* Sources */,
+				85E0B9AB1E7EDBDA00702F40 /* Frameworks */,
+				85E0B9AC1E7EDBDA00702F40 /* Resources */,
+				5DB76C39727353F9D214333B /* [CP] Embed Pods Frameworks */,
+				8E77419DC1A594D74C1CCCAE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Muhlag;
+			productName = Muhlag;
+			productReference = 85E0B9AE1E7EDBDA00702F40 /* Muhlag.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85E0B9A61E7EDBDA00702F40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Tseyen-Oidov Erdenebileg";
+				TargetAttributes = {
+					85E0B9AD1E7EDBDA00702F40 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 27L6FJ75SX;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 85E0B9A91E7EDBDA00702F40 /* Build configuration list for PBXProject "Muhlag" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85E0B9A51E7EDBDA00702F40;
+			productRefGroup = 85E0B9AF1E7EDBDA00702F40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85E0B9AD1E7EDBDA00702F40 /* Muhlag */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85E0B9AC1E7EDBDA00702F40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8502D6DC1E87CC9F000DA459 /* PT_Sans-Web-BoldItalic.ttf in Resources */,
+				8502D6DE1E87CC9F000DA459 /* PT_Sans-Web-Regular.ttf in Resources */,
+				85E0B9BF1E7EDBDA00702F40 /* LaunchScreen.storyboard in Resources */,
+				8502D6DD1E87CC9F000DA459 /* PT_Sans-Web-Italic.ttf in Resources */,
+				8502D6DB1E87CC9F000DA459 /* PT_Sans-Web-Bold.ttf in Resources */,
+				85E0B9BC1E7EDBDA00702F40 /* Assets.xcassets in Resources */,
+				85E0B9B71E7EDBDA00702F40 /* Main.storyboard in Resources */,
+				85139ADE1E8E2B7C004950C0 /* NotificationTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5DB76C39727353F9D214333B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Muhlag/Pods-Muhlag-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E77419DC1A594D74C1CCCAE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Muhlag/Pods-Muhlag-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FE69013AA73CF3DB3E9F591 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85E0B9AA1E7EDBDA00702F40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8502D6C81E87A3C4000DA459 /* PresetAppearanceConfig.swift in Sources */,
+				8502D6BF1E8659B1000DA459 /* TabManViewController.swift in Sources */,
+				8502D6A81E82D76B000DA459 /* Global.swift in Sources */,
+				8502D6AA1E82DE85000DA459 /* ProductListViewController.swift in Sources */,
+				85E0B9B41E7EDBDA00702F40 /* ViewController.swift in Sources */,
+				85BE27C71E8A2CFE00BD60A7 /* CheckOutViewController.swift in Sources */,
+				85E0B9D31E7EDE5E00702F40 /* UserInfoViewController.swift in Sources */,
+				85BE27C31E8A1BDC00BD60A7 /* RealmCart.swift in Sources */,
+				8502D6CA1E87ABA9000DA459 /* CategorySpecies.swift in Sources */,
+				8502D6B61E8436C6000DA459 /* ProductTableViewCell.swift in Sources */,
+				85E0B9D11E7EDE5300702F40 /* DeliveryViewController.swift in Sources */,
+				85BE27CE1E8AE76C00BD60A7 /* KeyboardLayoutConstraint.swift in Sources */,
+				85139AD91E8E28EF004950C0 /* NotificationViewController.swift in Sources */,
+				85E0B9B21E7EDBDA00702F40 /* AppDelegate.swift in Sources */,
+				85BE27C51E8A2A2300BD60A7 /* CartTableViewCell.swift in Sources */,
+				8502D6B81E843893000DA459 /* ProductSpecies.swift in Sources */,
+				85139ADD1E8E2B7C004950C0 /* NotificationTableViewCell.swift in Sources */,
+				8502D6C11E8659B9000DA459 /* ChildViewController.swift in Sources */,
+				85BE27CC1E8AE1E100BD60A7 /* BarStyle.swift in Sources */,
+				85E0B9CD1E7EDE3200702F40 /* AgeRestrictViewController.swift in Sources */,
+				85E0B9BA1E7EDBDA00702F40 /* Muhlag.xcdatamodeld in Sources */,
+				8502D6AC1E82E99C000DA459 /* MainViewController.swift in Sources */,
+				85BE27CA1E8A366B00BD60A7 /* CustomFooterTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		85E0B9B51E7EDBDA00702F40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85E0B9B61E7EDBDA00702F40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		85E0B9BD1E7EDBDA00702F40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85E0B9BE1E7EDBDA00702F40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85E0B9C11E7EDBDA00702F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		85E0B9C21E7EDBDA00702F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85E0B9C41E7EDBDA00702F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46A1B32D259F06852B3FD3AA /* Pods-Muhlag.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Muhlag/Muhlag.entitlements;
+				DEVELOPMENT_TEAM = 27L6FJ75SX;
+				INFOPLIST_FILE = Muhlag/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mn.ooyo.muhlagclient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		85E0B9C51E7EDBDA00702F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D261A48C0788A11D72395176 /* Pods-Muhlag.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Muhlag/Muhlag.entitlements;
+				DEVELOPMENT_TEAM = 27L6FJ75SX;
+				INFOPLIST_FILE = Muhlag/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mn.ooyo.muhlagclient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85E0B9A91E7EDBDA00702F40 /* Build configuration list for PBXProject "Muhlag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85E0B9C11E7EDBDA00702F40 /* Debug */,
+				85E0B9C21E7EDBDA00702F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85E0B9C31E7EDBDA00702F40 /* Build configuration list for PBXNativeTarget "Muhlag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85E0B9C41E7EDBDA00702F40 /* Debug */,
+				85E0B9C51E7EDBDA00702F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		85E0B9B81E7EDBDA00702F40 /* Muhlag.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				85E0B9B91E7EDBDA00702F40 /* Muhlag.xcdatamodel */,
+			);
+			currentVersion = 85E0B9B91E7EDBDA00702F40 /* Muhlag.xcdatamodel */;
+			path = Muhlag.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 85E0B9A61E7EDBDA00702F40 /* Project object */;
+}
